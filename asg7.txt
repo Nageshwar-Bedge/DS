@@ -1,0 +1,13 @@
+            double num1,num2;
+            
+            num1= Double.parseDouble(request.getParameter("number1"));
+            num2= Double.parseDouble(request.getParameter("number2"));
+            
+            out.println("<!DOCTYPE html>");
+            out.println("<html>");
+            out.println("<head>");
+            out.println("<title>Calculator Servlet output</title>");            
+            out.println("</head>");
+            out.println("<body>");
+            out.println("<h1>Addition " + add(num1,num2) + "</h1>");
+            out.println("<h1>Sub " + sub(num1,num2) + "</h1>");
